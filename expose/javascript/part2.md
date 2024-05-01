@@ -35,6 +35,9 @@
     Explanation:<br>
     We first call the function with those parameters.
     We essentially iterate through 'array' and apply doSomething() to each value. Each returned values is then stored in the newArray, and return that newArray. In our code, we would return [2, 4, 6], but it necessarily doesn't lead to an output.
-18. 
+19. 1
+    4
+    3
+    2 
     
     
