@@ -8,7 +8,7 @@
 8. [50, 100, 150]
 9. We get an error because variable 'i' is accessed is outside of its scope.
 10. 3
-11. We get an error because 'discounted' is a const variable and we are trying to change it in the loop.
+11. [50, 100, 150]
 12. a. student.name
     b. student['Grad Year']
     c. student.greeting()
@@ -29,4 +29,12 @@
     e. false because true takes the value of number 1.
     f. true because they are both true and of the same datatype.
 15. '==' is used to check the equality between the two values compared and '===' is used to check the equality between their datatypes.
-17.   
+17. Output:<br>
+    No output.
+    
+    Explanation:<br>
+    We first call the function with those parameters.
+    We essentially iterate through 'array' and apply doSomething() to each value. Each returned values is then stored in the newArray, and return that newArray. In our code, we would return [2, 4, 6], but it necessarily doesn't lead to an output.
+18. 
+    
+    
